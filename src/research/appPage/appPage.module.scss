@@ -1,0 +1,94 @@
+.appStoreWrapper {
+  color: var(--typo-primary);
+  border: solid var(--bg-system) 1px;
+  border-radius: var(--border-radius-sm);
+  min-width: 500px;
+  max-width: 1200px;
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+
+.depTitleRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.depName {
+  font-size: 24px;
+  text-align: center;
+  color: var(--typo-primary)
+}
+
+.depUserCheckedCount {
+  position: absolute;
+  right: 0;
+}
+
+.depWrapper {
+  background-color: var(--bg-brand);
+  padding: 16px;
+}
+
+.orgWrapper {
+  margin: 16px 0;
+  background-color: var(--bg-normal);
+  padding: 16px;
+  border: solid var(--bg-system) 1px;
+  border-radius: var(--border-radius-sm);
+}
+
+.orgControlRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  padding-right: 14px;
+  svg {
+    cursor: pointer;
+    fill: var(--typo-normal)
+  }
+}
+
+.orgControlRowTitle {
+  display: flex;
+  width: 50%;
+  cursor: pointer;
+  &:hover {
+    color: var(--typo-normal);
+  }
+}
+
+.orgName {
+  margin-left: 8px;
+}
+
+.col {
+  transform: rotate(270deg);
+}
+
+.userRecordWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 4px 8px;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--bg-brand);
+  }
+}
+
+.expandBtn {
+  height: 24px;
+  min-height: 24px;
+  background-color: var(--bg-secondary);
+}
+
+.userCheck {
+
+  cursor: pointer;
+  margin-left: 32px;
+  width: 16px;
+  height: 16px;
+}

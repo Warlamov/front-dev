@@ -1,0 +1,28 @@
+.usersPageWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-secondary);
+  padding: 24px;
+  min-height: 260px;
+  width: 80vw;
+  height: 90vh;
+  border: solid var(--bg-system) 1px;
+  border-radius: var(--border-radius-lg);
+  box-sizing: border-box;
+}
+
+.pageButtonsRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8px;
+}
+
+.removeBtn {
+  margin-left: 8px;
+}
+
+.removeItem {
+  margin: 8px 16px;
+}

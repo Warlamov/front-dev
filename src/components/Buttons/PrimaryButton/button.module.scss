@@ -1,0 +1,42 @@
+.button {
+  min-height: 36px;
+  background-color: var(--bg-normal);
+  min-width: 120px;
+  border: none;
+  border-radius:  var(--border-radius-sm);
+  width: fit-content;
+  padding: 0 12px ;
+  height: 36px;
+  color:var(--typo-primary);
+  white-space: nowrap;
+
+  transition-duration: .2s;
+
+  &:hover {
+    background-color: var(--bg-brand);
+    cursor: pointer;
+    outline: solid var(--bg-system) 2px;
+  }
+
+  &:active {
+    background-color: var(--bg-normal);
+    outline: solid var(--bg-system) 2px;
+    color: var(--typo-primary);
+  }
+}
+
+.secondaryButton {
+  border: solid var(--bg-normal) 1px;
+  background-color: transparent;
+  color: var(--typo-primary);
+
+  &:hover {
+    border: solid var(--bg-brand) 1px;
+  }
+
+  &:active {
+    background-color: var(--bg-normal);
+    outline: solid var(--bg-system) 2px;
+    color: var(--typo-primary);
+  }
+}

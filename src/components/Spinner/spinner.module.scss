@@ -1,0 +1,74 @@
+.spinnerWrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  backdrop-filter: blur(1px);
+  left: 0;
+  top: 0;
+}
+.spinner {
+  fill: var(--bg-brand);
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  animation-name: spinner-live;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.tiny {
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes spinner-live {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(10deg);
+  }
+
+  20% {
+    transform: rotate(20deg);
+  }
+
+  30% {
+    transform: rotate(30deg);
+  }
+
+  40% {
+    transform: rotate(50deg);
+  }
+
+  50% {
+    transform: rotate(70deg);
+  }
+
+  60% {
+    transform: rotate(90deg);
+  }
+
+  70% {
+    transform: rotate(120deg);
+  }
+
+  80% {
+    transform: rotate(180deg);
+  }
+
+  90% {
+    transform: rotate(320deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}

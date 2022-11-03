@@ -1,0 +1,46 @@
+.modalBackgroundWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--back-dore);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentWrapper {
+  background-color: var(--bg-secondary);
+  padding: 16px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  width: 480px;
+  height: fit-content;
+}
+
+.modalBody {
+  color: var(--typo-primary);
+}
+
+.userFormTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: var(--typo-primary);
+}
+
+.actionRow {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  bottom: 16px;
+  margin-top: 32px;
+
+  :last-child {
+    margin-left: 8px;
+  }
+}

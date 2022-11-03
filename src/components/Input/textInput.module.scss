@@ -1,0 +1,17 @@
+.textInput {
+  width: 226px;
+  height: 24px;
+  border-radius: var(--border-radius-sm);
+  border: solid grey 1px;
+  padding: 4px 6px;
+  background-color: var(--bg-system);
+  color: var(--typo-primary);
+
+  &:hover {
+    outline: solid var(--bg-system) 1px;
+  }
+
+  &:focus {
+    outline: solid var(--bg-system) 1px;
+  }
+}

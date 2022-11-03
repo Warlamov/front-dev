@@ -1,0 +1,70 @@
+.table {
+  height: calc(100% - 120px);
+  min-height: 80px;
+  margin-top: 24px;
+  border: solid var(--bg-system) 1px;
+  padding-bottom: 24px;
+  border-radius:  var(--border-radius-md);
+}
+
+.tHead {
+  border: solid var(--bg-system) 1px;
+  padding: 8px;
+  background-color: var(--bg-system);
+  color: var(--typo-primary);
+  overflow: hidden;
+}
+
+.tHeadRow {
+  display: flex;
+  width: 100%;
+}
+
+.tHeadCell {
+  min-height: 20px;
+  min-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tBody {
+  height: calc(100% - 90px);
+  overflow: auto;
+}
+
+.tBodyRow {
+  display: flex;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--bg-primary);
+  }
+}
+
+.selectedRow {
+  background-color: var(--bg-primary);
+  color: var(--typo-primary);
+}
+
+.tBodyCell {
+  padding: 8px;
+  border-bottom: solid grey 1px;
+  font-size: 14px;
+  min-height: 20px;
+  min-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--typo-primary);
+}
+
+.actions {
+  display: flex;
+  span {
+    margin: 0 4px;
+  }
+}
+
+.paginatorWrapper {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}

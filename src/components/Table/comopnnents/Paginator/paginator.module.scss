@@ -1,0 +1,34 @@
+.paginator {
+  display: flex;
+  margin: 8px;
+  color: var(--typo-primary);
+}
+
+.navPage {
+  white-space: nowrap;
+}
+
+.pageSizeSelector {
+  height: 24px;
+  width: 48px;
+  padding-left: 8px;
+  border: none;
+
+  div {
+    border: none;
+    top: 28px;
+    width: 54px;
+    left: -2px;
+    padding: 2px 4px;
+    font-size: 14px;
+  }
+}
+
+.toLeftBtn {
+  transform: rotate(90deg);
+  margin: 0 8px;
+}
+
+.toRightBtn {
+  transform: rotate(270deg);
+}

@@ -1,0 +1,16 @@
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+
+  label {
+    display: block;
+    color: var(--typo-primary);
+    font-size: 16px;
+  }
+}
+
+
+

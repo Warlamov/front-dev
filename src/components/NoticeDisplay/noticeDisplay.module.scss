@@ -1,0 +1,31 @@
+.noticeWrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 16px;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background-color: var(--succsess);
+  border-radius: var(--border-radius-sm);
+  bottom: 20px;
+  color: var(--typo-dark);
+  left: calc(50% - 150px);
+  white-space: nowrap;
+
+  svg {
+    fill: var(--typo-dark);
+  }
+}
+
+.noticeText {
+ padding-bottom: 4px;
+}
+
+.errorType {
+  background-color: var(--alert);
+  color: var(--typo-primary);
+  svg {
+    fill: var(--typo-primary);
+  }
+}
